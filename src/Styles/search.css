@@ -25,7 +25,7 @@
     color: #6A040B;  
 }
 
-@media(max-width: 375px){
+@media(max-width: 438px){
     .input-value{
         font-size: 0.6rem;
     }
