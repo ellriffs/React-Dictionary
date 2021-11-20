@@ -1,0 +1,33 @@
+.search-form{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.input-value{
+    margin: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 3vh;
+    border-radius: 32px;
+    background: transparent;
+    border-bottom: 5px double #6A040B; 
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px double #6A040B; ;
+    font-size: 1rem;
+    color: white
+}
+
+.input-value::placeholder{
+    color: #6A040B;  
+}
+
+@media(max-width: 375px){
+    .input-value{
+        font-size: 0.6rem;
+    }
+
+}
